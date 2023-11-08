@@ -24,4 +24,4 @@ systemctl start backend
 
 dnf install mysql -y
 
-mysql -h 172.31.39.165 -uroot -pExpenseApp@1 < /app/schema/backend.sql
+mysql -h mysql.saikrishna.cloud -uroot -pExpenseApp@1 < /app/schema/backend.sql
