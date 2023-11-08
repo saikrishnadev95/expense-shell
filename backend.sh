@@ -23,4 +23,4 @@ systemctl start backend
 
 dnf install mysql -y
 
-mysql -h 172.31.46.227 -uroot -pExpenseApp@1 < /app/schema/backend.sql
+mysql -h 172.31.46.181 -uroot -pExpenseApp@1 < /app/schema/backend.sql
