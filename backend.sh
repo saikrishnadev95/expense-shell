@@ -1,3 +1,5 @@
+log_file=/tmp/expense.log
+echo Install NodeJS Repos
 dnf module disable nodejs -y
 
 dnf module enable nodejs:18 -y
