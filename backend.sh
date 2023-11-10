@@ -7,7 +7,7 @@ if [ $? -ne 0 ]; then
   curl -sL https://rpm.nodesource.com/setup_lts.x | bash &>>$log_file
   stat_check
 
-  echo Install NodeJS
+  echo Install NodeJS22
   dnf install nodejs -y &>>$log_file
   stat_check
 fi
